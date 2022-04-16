@@ -1,0 +1,95 @@
+MVP - Minimal Viable Product(workable prototype)
+
+functional requirement => features
+non functional requirement => adjective of application
+
+availabilityy concept:
+eleven-nine
+four-nine
+
+multiple roles =>(role based access control => rbac)
+
+SDLC model => waterfall & agile model
+
+waterfall => requirement constant.=>requirement - design - implementation - verification - maintenance
+
+agile => loop of waterfall model
+
+choose necessary technology =>
+**sample requirements(srs=>software requirement specification)
+requirement:
+requirement => google docs,microsoft office, notion
+diagram => draw.io,lucid chart
+
+design:
+requirement analysis & design =>
+*system design
+    *architectural decision
+        *Monolithic(layered)
+            *easy to develop  but very complex to maintain enterprise application
+        *Microsevice
+            *hard to develop but easy to maintain for big application
+        *serverless(Fass => Function as a service)
+    *Select database
+        *SQL
+            *Postgresql
+            *mysql
+        *NoSQL
+            *MongoDB
+            *casandra
+        *key value
+            *redis
+            *dynamoDB
+        *Graph database
+            *Neo4j
+        *Search Database
+            *Elastic search(open source - full text search)
+            *Algolia search (Open AI 3 => Natural Language Processing)
+*software architecture
+    * OOP
+    *OOP design & principle
+    *databse
+    *Clean code architecture
+    *problem solving.
+
+
+*distribution
+    *DevOps
+        *continuous task
+            *Git & github
+            *Linux & SSH
+            *Circle CI,Travis,Jenkis
+            *Docker,Docker compsose
+            *Docker swarm,kubernetes
+            *Prometheus,Nagios
+            *Ansible
+    *Cloued Engineering
+        *VPC (Virtual Private cloud)
+        *EC2(Elastic computing cloud)
+        *S3(Simple storage service)
+        *RDS(Relational Database Service)
+        *dynamoDB
+        *route S3
+        *CloudeFront(CDN)
+        *SES(Simple Email Service)
+        *SNS(Simple Notification service)
+        *SQS(Simple Queue Service)
+        *Api gateway
+        *Lambda
+        *Step functional
+        *cloud watch
+*testing
+    *test driven development
+     *JEST
+     *E2E
+*maintenance
+
+our decision for ps caffe=>
+
+architecture:monolithic
+databse: NoSQL (MongoDB Atlas)
+Backend: Node.js (express,hapi,fastify)
+
+
+
+
