@@ -10,22 +10,22 @@ for (let i = 0; i < 5000000; i++) {
 }
 let id = 4999999;
 
+// console.time("array");
+
+// const obj = arr.find((item) => item.id === id);
+// obj.value = 555;
+// console.timeEnd("array"); // 104.901ms
+
+// console.time("obj");
+// arrToObj[id].value = 999;
+// console.timeEnd("obj"); // 0.019ms
+
 console.time("array");
-
-const obj = arr.find((item) => item.id === id);
-obj.value = 555;
-console.timeEnd("array"); // 104.901ms
-
-console.time("obj");
-arrToObj[id].value = 999;
-console.timeEnd("obj"); // 0.019ms
-
-// console.time('array');
-// arr.unshift({
-// 	id: 5000000,
-// 	value: 5000000,
-// });
-// console.timeEnd('array'); // 15.084ms
+arr.unshift({
+  id: 5000000,
+  value: 5000000,
+});
+console.timeEnd("array"); // 15.084ms
 
 // console.time('obj');
 // arrToObj[5000000] = {
