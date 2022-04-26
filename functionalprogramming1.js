@@ -1,9 +1,15 @@
-//side effect
-const fruits = ["pineapple", "orange", "pawpaw", "kiwi"];
-function removeData(dataArr) {
-  const removedFruits = [...dataArr];
-  removedFruits.pop();
-  return removedFruits;
-}
-const removedFruits = removeData(fruits);
-console.log(fruits, removedFruits);
+const randomSum = (max) => {
+  const random1 = Math.floor(Math.random() * max);
+  const random2 = Math.floor(Math.random() * max);
+  return random1 + random2;
+};
+const randomSub = (max) => {
+  const random1 = Math.floor(Math.random() * max);
+  const random2 = Math.floor(Math.random() * max);
+  return random1 - random2;
+};
+const randomSumSquare = (max) => {
+  const random1 = Math.floor(Math.random() * max);
+  const random2 = Math.floor(Math.random() * max);
+  return random1 * random1 + random2 * random2;
+};
