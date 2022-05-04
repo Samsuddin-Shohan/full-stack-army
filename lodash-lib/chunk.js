@@ -1,6 +1,6 @@
 const chunk = (arr, num) => {
   const temp = [...arr];
-  const numberOfArray = Math.ceil(arr.length / num);
+  const numberOfArray = Math.ceil(temp.length / num);
   let result = [];
   for (let i = 0; i < numberOfArray; i++) {
     result.push([]);
@@ -19,4 +19,4 @@ const chunk = (arr, num) => {
   //console.log(temp);
   return result;
 };
-console.log(chunk([1, 2, 3, 4, 5, 6, 7], 2));
+console.log(chunk([1, 2, 3, 4], 3));
